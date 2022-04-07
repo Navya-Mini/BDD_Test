@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Testing Login with Valid credentials",
+        "description": "",
+        "id": "user-login;testing-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11917242300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Login page",
+            "match": {
+              "location": "Login_Steps.Navigatetologin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4249517400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter mngr397779 and K8KHvTADODw\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr397779",
+                  "offset": 8
+                },
+                {
+                  "val": "K8KHvTADODw\u003d",
+                  "offset": 23
+                }
+              ],
+              "location": "Login_Steps.EnterLogins(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3180842900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on submit button",
+            "match": {
+              "location": "Login_Steps.submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1497145000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on new customer for verification",
+            "match": {
+              "location": "Login_Steps.sucessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Valid"
+          }
+        ]
+      }
+    ],
+    "name": "User Login",
+    "description": "  User should be able to login using valid credentials",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

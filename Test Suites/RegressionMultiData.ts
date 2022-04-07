@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>RegressionMultiData</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>66263a8b-0e18-485e-88c6-dbc7f80e1496</testSuiteGuid>
+   <testCaseLink>
+      <guid>562960b9-7ac5-4853-a286-0db9e6383027</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DDT_Test/Test1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4712b65b-5476-4ddb-8167-9d04bb11e377</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DDT Test Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4712b65b-5476-4ddb-8167-9d04bb11e377</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>f78ca33e-6f19-4bdd-8651-4ca19471427f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4712b65b-5476-4ddb-8167-9d04bb11e377</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ad7deb5e-0581-42f5-b390-2b908a217815</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
